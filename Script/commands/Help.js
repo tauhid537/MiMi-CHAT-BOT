@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 👑 Owner: 𝐓𝐚𝐮𝐡𝐢𝐝 𝐇𝐚𝐬𝐬𝐚𝐧
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -80,7 +80,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "𝐌𝐢𝐦𝐢 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
     );  
 
     downloadImages(files => {  
